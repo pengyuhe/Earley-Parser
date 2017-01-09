@@ -38,7 +38,6 @@ def Attach(Current_Column):
         Temp_Key=Temp_Entry[1]
         Temp_Weight = Temp_Entry[3][0]
 
-        ### Maybe can be improved???
         for Attach_Entry in Parse_Chart[Start_line]:
             ### If it can be attached
             if(Attach_Entry==None):
